@@ -1,7 +1,7 @@
 ## Codin Game solutions
 
 # Onboarding Puzzle
-```
+```.py
 while 1:
     enemy_1 = input() 
     dist_1 = int(input()) 
@@ -19,7 +19,7 @@ while 1:
         
   #The Descent
   
-```
+```.py
 import sys
 import math
 
