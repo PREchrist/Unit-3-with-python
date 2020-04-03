@@ -1,8 +1,8 @@
 Friday, April 3rd 2020
 
-Programming practice with python
+## Programming practice with python
 
-Question I:
+# Question I:
 
 Write a Python program that accepts a string and calculate the number of digits and letters. 
 
@@ -11,7 +11,7 @@ Expected Output :
 Letters 6
 Digits 2
 
-Here's the solution:
+# Here's the solution:
 
 ```.py
 s = input("Input your string:\n)
@@ -29,7 +29,7 @@ print("letters", l)
 ```
 
 
-Question II:
+# Question II:
 
 With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that i is an integral number between 1 and n (both included). The program should print the dictionary.
 
@@ -38,7 +38,7 @@ Sample Input
 Expected Output
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 
-SOLUTION:
+# SOLUTION:
 
 ```.py
 #take the user input of number
@@ -53,7 +53,7 @@ print(squares)
 ```
 
 
-Question III:
+# Question III:
 
 Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
 
@@ -63,7 +63,7 @@ without,hello,bag,world
 Expected Output
 bag,hello,without,world
 
-Solution of the third question:
+# Solution of the third question:
 
 ```.py
 items = [ x for x in input("Write down your data to be sorted").split(',')]
@@ -73,7 +73,7 @@ print("Your data sorted look like",','.join(items))
 ```
 
 
-Question IV:
+# Question IV:
 
 Define a class which has at least two methods: 
 
@@ -82,7 +82,7 @@ printString: to print the string in upper case.
 
 Also please include a simple test function to test the class methods by instantiating an object.
 
-SOlution:
+# SOlution:
 
 ```.py
 class ChristPrecieux(object):
@@ -105,7 +105,7 @@ self.s = ""
   ```
 
 
-Question V:
+# Question V:
 
 Write a Python program to calculate a dog's age in dog's years. Go to the editor
 Note: For the first two years, a dog year is equal to 10.5 human years. After that, each dog year equals 4 human years.
@@ -115,7 +115,7 @@ Sample Input
 Expected Output
 The dog's age in dog's years is 73
 
-My solution is:
+# My solution is:
 
 ```.py
 h_age = input("Include the dog's age in years")
