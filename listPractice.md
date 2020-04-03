@@ -1,6 +1,6 @@
 EVEN INDICES
 
-```
+```.py
 a = input().split()
 for i in range(0, len(a), 2):    
     print(a[i])
@@ -8,7 +8,7 @@ for i in range(0, len(a), 2):
     
  EVEN ELEMENTS
  
- ```
+ ```.py
  a = [int(i) for i in input().split()]
 for elem in a:
     if elem % 2 == 0:
@@ -17,7 +17,7 @@ for elem in a:
         
  GREATER THAN PREVIOUS
  
- ```
+ ```.py
  a = [int(i) for i in input().split()]
 for i in range(1, len(a)):
     if a[i] > a[i - 1]:
@@ -26,7 +26,7 @@ for i in range(1, len(a)):
         
   NEIGHBORS OF THE SAME SIGN
   
-  ```
+  ```.py
   a = [int(i) for i in input().split()]
 for i in range(1, len(a)):
     if a[i - 1] * a[i] > 0:
@@ -36,7 +36,7 @@ for i in range(1, len(a)):
         
    GREATER THAN NEIGHBOURS
    
-   ```
+   ```.py
    a = [int(i) for i in input().split()]
 counter = 0
 for i in range(1, len(a) - 1):
