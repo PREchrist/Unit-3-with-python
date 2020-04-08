@@ -132,3 +132,26 @@ else:
 print("the dog's age in years is", d_age)
 
 ```
+
+
+
+
+
+
+## Syllabus Questions:
+Q1. Outline one usability issue associated with the design of mobile devices.
+
+  Among the usability issue associated with the design of mobile devices,the one I would quote is "Screen light"
+
+Q2. Construct a truth table for the following Boolean expression.
+
+  
+
+Q3. Define the term protocol.
+
+Protocol, in computer science, a set of rules or procedures for transmitting data between electronic devices, such as computers. In order for computers to exchange information, there must be a preexisting agreement as to how the information will be structured and how each side will send and receive it.
+
+Q4. Outline the role of the memory data register in the machine execution cycle. 
+
+Q5. A code for representing colours is used, where each colour is stored using 7 bits. State the number of different colours that can be represented.
+
