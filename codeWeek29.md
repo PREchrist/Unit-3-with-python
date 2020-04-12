@@ -1,10 +1,10 @@
-Happy Easter
+## Happy Easter
 The Christ is risen, hope everything gonna change in the time.
 
 
 Sunday, April 12th 2020
 
-Coding Practice
+# Coding Practice
 
 ## Question 1:
 
@@ -46,3 +46,34 @@ while check == 0:
     else:
         number = int(input('The imput number was not in the range, please enter a number between 1-100:\n'))
 ```
+
+## Question 2:
+
+Write a Python program that generates random passwords of length 20. The user provides how many passwords should be generated
+
+Sample Input
+3
+Expected Output
+Password 1: 4)uLyPr-8`w2)H5z2;4}
+Password 2: <FZ}Z?~Lj<k4#5m]WBAq
+Password 3: {s=AS2=xJ;#5*F~s(EQ#
+
+```.py
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@&%#*+¥<>-='
+
+number = int(input('How many password do you want:\n'))
+#number = int(number)
+
+#length = input('Which length is better for your password')
+length = int(20)
+
+for p in range(number):
+    password = ''
+    for c in range(length):
+        password += random.choice(chars)
+    print(password)
+```
+
+## Great done ! 
