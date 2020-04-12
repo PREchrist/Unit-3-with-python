@@ -1,8 +1,8 @@
 ## Happy Easter
-The Christ is risen, hope everything gonna change in the time.
+## The Christ is risen, hope everything gonna change in the time.
 
 
-Sunday, April 12th 2020
+## Sunday, April 12th 2020
 
 # Coding Practice
 
@@ -49,10 +49,11 @@ while check == 0:
 
 ## Question 2:
 
-Write a Python program that generates random passwords of length 20. The user provides how many passwords should be generated
+## Write a Python program that generates random passwords of length 20. The user provides how many passwords should be generated
 
-Sample Input
+Sample Input:
 3
+
 Expected Output
 Password 1: 4)uLyPr-8`w2)H5z2;4}
 Password 2: <FZ}Z?~Lj<k4#5m]WBAq
