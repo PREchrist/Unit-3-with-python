@@ -90,5 +90,16 @@ for p in range(number):
 - MotherBroad : 
 
 
+## Preliminaries:
+
+- What is a Hash: 
+    Hash is a function that converts one value to another. In others words, hashing is a process of converting an input of any length into a fixe size string of text, using a mathematical function; this means any text, no matter how long it is can be converted into an array of letters and numbers through an algorythm. Hashing data is a common practice in computer science and is used for several different purposes. 
+
+- What is a byte and a bit?
+- What is ascii?
+- What is Unicode and UTF-8?
+- What is hexadecimal?
+
+
 
 ## Great done ! 
