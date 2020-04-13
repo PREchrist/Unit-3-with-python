@@ -92,13 +92,22 @@ for p in range(number):
 
 ## Preliminaries:
 
-- What is a Hash: 
+# What is a Hash: 
     Hash is a function that converts one value to another. In others words, hashing is a process of converting an input of any length into a fixe size string of text, using a mathematical function; this means any text, no matter how long it is can be converted into an array of letters and numbers through an algorythm. Hashing data is a common practice in computer science and is used for several different purposes. 
 
-- What is a byte and a bit?
-- What is ascii?
-- What is Unicode and UTF-8?
-- What is hexadecimal?
+# What is a byte and a bit?
+    A bit (short for "binary digit") is the smallest unit of measurement used to quantify computer data. It contains a single binary value of 0 or 1. Whereas byte contains eight bits that each have two possible values, a single byte may have 28 or 256 different values. 
+       [The terms "bits" and "bytes" are often confused and are even used interchangeably since they sound similar and are both abbreviated with the letter "B." However, when written correctly, bits are abbreviated with a lowercase "b," while bytes are abbreviated with a capital "B." It is important not to confuse these two terms, since any measurement in bytes contains eight times as many bits. For example, a small text file that is 4 KB in size contains 4,000 bytes, or 32,000 bits, Generally, files, storage devices, and storage capacity are measured in bytes, while data transfer rates are measured in bits. For instance, an SSD may have a storage capacity of 240 GB, while a download may transfer at 10 Mbps. Additionally, bits are also used to describe processor architecture, such as a 32-bit or 64-bit processor.]
+ 
+# What is ascii?
+    ASCII, abbreviated from American Standard Code for Information Interchange, is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices
+
+# What is Unicode and UTF-8?
+    Unicode is an information technology standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems.
+    UTF-8 is a variable width character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four one-byte code units.
+
+# What is hexadecimal?
+    In mathematics and computing, hexadecimal is a positional system that represents numbers using a base of 16. Unlike the common way of representing numbers with ten symbols, it uses sixteen distinct symbols, most often the symbols "0"–"9" to represent values zero to nine, and "A"–"F" to represent values ten to fifteen.
 
 
 
