@@ -17,5 +17,7 @@ The inventory has shown it face to be drawn by python. I have chosen by ```pytho
 1. option to help adding new pen/pencils as well as remove the unsual
 
 # Design
+![systemdiagarm](SystemDiagarm.png)
+
 # Development
 # Evaluation
