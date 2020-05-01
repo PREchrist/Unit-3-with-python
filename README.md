@@ -21,4 +21,28 @@ The inventory has shown it face to be drawn by python. I have chosen by ```pytho
 This is the System Diagram for my app.
 
 # Development
+```.py
+ def try_login(self):
+        print("Welcome dear C'P")
+        username = self.username.text()
+        if username == "":
+            color ="red"
+        else:
+            color="green"
+        self.username.setStyleSheet("border: 2px solid {}".format(color))
+
+        password = self.password.text()
+        if password == secret_pass:
+            color="green"
+        else:
+            color="red"
+        self.password.setStyleSheet("border: 2px solid {}".format(color))
+
+
+        # 2 Validate that the password is not empty
+        if password == secret_pass and username == user:
+            self.done(0)
+```
+This is the part of the code for login.
+
 # Evaluation
