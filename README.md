@@ -19,6 +19,7 @@ The inventory has shown it face to be drawn by python. I have chosen by ```pytho
 This is the System Diagram for my app.
 
 # Development
+This development part is about the whole code that allows me to build up an app. The code is not going to be suffocated for the whole, but I am going to cut out different parts to explain the succeed of my criteria
 ```.py
  def try_login(self):
         print("Welcome dear C'P")
