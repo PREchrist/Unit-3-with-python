@@ -112,8 +112,17 @@ This are the code to fill the two tables of articles, so here is my database, wh
 Following the user worries, this is the major part of my user, I am pleased that this part has been done succesfully because the user was avoiding to work out his/her fingers so that he definetely find his wished article in need, this search button has been implemented only for pens as long as pencils do not have categories of color, they have a universal color known by everybody. indeed, this option thriftiness the user to undergo the swipe up and swipe down game, the user would not like to wate the time.
 
 ```.py
+class WorldStore(Ui_WorldStore,QMainWindow):
+    def __init__(self, parent=None):
+        super(WorldStore, self).__init__(parent)
+        self.setupUi(self)
+        self.pushButton.clicked.connect(self.close)
 
+    def close(self):
+        form = mainInventory(self)
+        form.show()
 ```
+For my last success criteria, this iece of cod has allowed me to create another window where the user is able to add new items from tableau, according to his wishes.
 
 
 # Evaluation
